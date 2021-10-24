@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
+}
+
+body{
+	background-color: #6259ac;
+}
+
+section.heading{
+	text-align: center;
+	margin-top: 50px;
+	color: #fff;
+}
+
+section.heading h1{
+	font-size: 3em;
+}
+
+section.heading p{
+	padding-top: 10px;
+}
+
+section.heading a{
+	margin-top: 20px;
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	font-size: 1em;
+	text-decoration: none;
+	transition: .5s;
+}
+
+section.heading a:hover{
+	background-color: #fff;
+	color: #6259ac;
+	font-weight: 700;
+}
+
+
+section.contents{
+	display: flex;
+	justify-content: center;
+	width: 90%;
+	padding-top: 50px;
+	margin: 0 auto;
+}
+
+section.contents .content{
+	text-align: center;
+}
+
+section.contents .content .img-content img{
+	width: 70%;
+	height: 70%;
+}
+
+section.contents .content .body-content h1{
+	color: #fff;
+	font-size: 1.2em;
+}
+
+section.contents .content .body-content p{
+	color: #a099dc;
+	padding: 20px 30px 0;
+}
+
+section.contents .content .bottom-content p{
+	color: #fff;
+	font-size: 2em;
+	padding-top: 20px;
+}
+
+
+section.copyright {
+	background-color: #393463;
+	padding: 10px 0;
+	margin-top: 50px;
+	color: #fff;
+	text-align: center;
+	transition: 10s;
+}
+
+section.copyright a{
+	text-decoration: none;
+	color: #897aff;
+	font-weight: 700;
+}
+
+section.copyright a:hover{
+	text-decoration: underline;
+}
